@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <script src="https://kit.fontawesome.com/392eb47165.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="estilos.css">
+    
+</head>
+<body>
+    <!-- MENU  -->
+    <div class="cont-header">
+        <header>
+            <div class="logo">
+                <a href="#">Augusto</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">ABOUT ME</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#proyectos" onclick="seleccionar()">PROJECTS</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACT</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>        
+        </header>
+    </div>
+
+    <!-- INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="cont-img">
+                <img src="/IMG/fotocarnet.jpg" alt="">
+            </div>
+            <h1>AUGUSTO MINA</h1>
+            <h2>Programmer and Developer</h2>
+            <div class="redes">
+                <a href="#" class="face"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#" class="twit"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#" class="insta"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" class="ldin"><i class="fa-brands fa-linkedin-in"></i></a>    
+                <a href="#" class="ghub"><i class="fa-brands fa-github"></i></a>                            
+            </div>
+        </div>
+    </section>
+    <!-- SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>About Me</h2>
+            <p><span>Hola, soy Augusto Mina</span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur, delectus quam vel porro rerum 
+                iusto quis saepe totam eius exercitationem quos. Iure eligendi, laborum cupiditate sequi enim soluta temporibus nesciunt!</p>
+
+            <div class="fila">
+                <!-- DATOS PERSONALES -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            08-04-1998
+                        </li>
+                        <li>
+                            <strong>Celular</strong>
+                            +54 3564-674585
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            augustomina.am@gmail.com
+                        </li>
+                        <li>
+                            <strong>Website</strong>
+                            www.ejemplo.com
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            San Francisco, Córdoba
+                        </li>
+                        <li>
+                            <strong>Ocupación</strong>
+                            <span>Estudiante</span>
+                        </li>
+                    </ul>
+                </div>
+                <!-- INTERESES PERSONALES -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="cont-intereses">
+                        <div class="intereses">
+                            <i class="fa-regular fa-futbol"></i>
+                            <span>DEPORTES</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MÚSICA</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-camera"></i>
+                            <span>FOTOS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="/IMG/CV Augusto Mina.pdf" download="CV Augusto Mina.pdf">
+                Descargar CV <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </a>
+        </div>
+    </section>
+    <!-- SKILLS -->
+    <section id="skills" class="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- technical -->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso javascript">
+                                <span>45%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso htmlcss">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>C#</span>
+                        <div class="barra-skill">
+                            <div class="progreso csharp">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>.NET</span>
+                        <div class="barra-skill">
+                            <div class="progreso net">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>SQL</span>
+                        <div class="barra-skill">
+                            <div class="progreso sql">
+                                <span>40%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso comunicacion">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso equipo">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso creatividad">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso dedicacion">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Responsabilidad</span>
+                        <div class="barra-skill">
+                            <div class="progreso responsabilidad">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Tecnicatura en Programación</h4>
+                        <span class="casa">UTN Regional San Francisco</span>
+                        <span class="fecha">2023-Actualidad</span>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil qui odio ipsum</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Tecnicatura en Programación</h4>
+                        <span class="casa">UTN Regional San Francisco</span>
+                        <span class="fecha">2023-Actualidad</span>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil qui odio ipsum</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia Laboral</h3>
+                    <div class="item der">
+                        <h4>lalalalla</h4>
+                        <span class="casa">lalalalalla</span>
+                        <span class="fecha">lalalala</span>
+                        <p>lalalala</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- PROYECTOS -->
+    <section id="proyectos" class="proyectos">
+        <div class="contenido-seccion">
+            <h2>Projects</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="IMG/bosque.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="IMG/cripto.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="IMG/ropa.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="IMG/resto.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACT</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div id="formulario" class="col">
+                    <input type="text" placeholder="Nombre" name="name">
+                    <input type="text" placeholder="Número Telefónico" name="phone">
+                    <input type="email" placeholder="Dirección de Correo" name="email">
+                    <input type="text" placeholder="Tema" name="tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje" name="message"></textarea>
+                    <button type="submit">
+                        Enviar Mensaje  <i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!-- Mapa -->
+                <div class="col">
+                    <img src="img/mapa.jpg" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                José Hernandez 2169, San Franciso, Córdoba
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen-button"></i>
+                                Llamame +54 3564674585
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: augustomina.am@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FOOTER -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#" class="face"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" class="twit"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#" class="insta"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="ldin"><i class="fa-brands fa-linkedin-in"></i></a>    
+            <a href="#" class="ghub"><i class="fa-brands fa-github"></i></a>                            
+        </div>
+        <div class="copi">
+            <p>Creado por Augusto Mina <i class="fa-regular fa-copyright"></i></p> 
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
