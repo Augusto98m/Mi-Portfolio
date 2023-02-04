@@ -71,7 +71,7 @@ html{
 
 /* SECCION INICIO */
 .inicio{
-    background: linear-gradient(to top, rgba(30,35,38,.6), rgba(30,35,38,1)), url('https://raw.githubusercontent.com/Augusto98m/Mi-Portfolio/main/IMG/fondo1.jpg');
+    background: linear-gradient(to top, rgba(30,35,38,.6), rgba(30,35,38,1)), url(https://raw.githubusercontent.com/Augusto98m/Mi-Portfolio/main/IMG/fondo1.jpg);
     background-size: cover;
     height: 100vh;
     color: #fff;
